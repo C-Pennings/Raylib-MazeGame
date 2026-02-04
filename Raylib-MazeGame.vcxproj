@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\Charlie Pennings\Documents\MazeGame\Raylib-MazeGame\lib;C:\Users\Charlie Pennings\Documents\MazeGame\Raylib-MazeGame\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Charlie Pennings\Documents\MazeGame\Raylib-MazeGame\include;C:\Users\Charlie Pennings\Documents\MazeGame\Raylib-MazeGame\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)lib;$(ProjectDir)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)lib;$(ProjectDir)include;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
