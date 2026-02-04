@@ -359,5 +359,40 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
+# Visual Studio / C++ build artifacts
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.lib     # ← raylib.lib if you copied it locally
+*.dll     # ← raylib.dll if present
+*.exe
+*.manifest
+*.iobj
+*.ipdb
+
+# Folders
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+.vs/
+ipch/
+.vscode/
+
+# Other common junk
+*.user
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+Thumbs.db
+.DS_Store
+
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
